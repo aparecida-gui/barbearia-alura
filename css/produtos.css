@@ -1,0 +1,53 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #e9e9e9;
+}
+
+header{
+    background: #f39018;
+}
+
+.box{
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top:6rem;
+    right: 0rem;
+}
+
+header ul li{
+    display: inline;
+    font-weight: bold;
+    margin-right: 0.7rem;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.product li{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    font-weight: bold;
+    margin: 0 1.5%;
+    padding: 0.5rem 0.3rem;
+    border: 0.3rem solid #f39018;
+    border-radius: 0.8rem;
+    background: #FFFFFF;
+    width: 18%;
+    height: 18%;
+}
+
+.title-products{
+    font-size: 1.1rem;
+}
+
+.description-product{
+    font-size: 0.9rem;
+}
