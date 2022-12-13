@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-------------------------------Reset CSS----------------------->
+        <link rel="stylesheet" href="../css/reset.css">
+
+        <!---------------------------Font Google-------------------------->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <!--------------------------------------------------------------------->
+
+        <link rel="stylesheet" href="../css/contato.css">
+
+        <title>Contato</title>
+    </head>
+
+    <body>
+
+        <header>
+            <div class="box">
+                <h1>
+                    <a href="index.html"><img src="../img/imagens-dos-produtos/logo-branco.png" alt="logo"
+                            class="logo"></a>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">Produtos</a></li>
+                            <li><a href="contato.html">Contatos</a></li>
+                        </ul>
+                    </nav>
+                    <h1>
+            </div>
+        </header>
+
+        <main>
+            <form class="form-contact">
+                <h1 class="form-title">Formulário de Contato</h1>
+
+                <div class="form-content">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" placeholder="Digite seu nome" class="form-input" required />
+                </div>
+
+                <div class="form-content">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Digite seu email" class="form-input" required />
+                </div>
+
+                <div class="form-content">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" placeholder="Digite seu email" class="form-input" required />
+                </div>
+
+                <div class="form-content">
+                    <label for="mensage">Mensagem</label>
+                    <textarea id="mensage" cols="30" rows="10" placeholder="Digite sua mensagem" required
+                        class="input-textarea">
+                    </textarea>
+                </div>
+
+                <div class="form-content">
+                    <p>Como você prefere que entremos em contato?</p>
+                    <label for="radio-email">Email</label>
+                    <input type="radio" name="contato" id="radio-email">
+
+                    <label for="radio-phone">Telefone</label>
+                    <input type="radio" name="contato" id="radio-phone">
+
+                    <label for="whatsApp">WhatsApp</label>
+                    <input type="radio" name="contato" id="whatsApp" checked>
+                </div>
+
+                <div class="form-content">
+                    <label for="select-hour">Qual o melhor horario para contartamos você?</label>
+                    <select id="select-hour" class="form-input">
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </div>
+
+                <div class="form-content">
+                    <input type="checkbox" name="option-message" id="checkbox-option" checked>
+                    <label for="checkbox-option">Gostaria de receber nossas novidades por e-mail</label>
+                </div>
+
+                <div class="form-content">
+                    <input type="submit" value="Enviar" class="input-submit">
+                </div>
+            </form>
+        </main>
+
+        <footer>
+            <img src="../img/imagens-dos-produtos/logo.png" />
+            <p>&copy; Copyright Barbearia Alura - 2022</p>
+        </footer>
+
+    </body>
+
+</html>
