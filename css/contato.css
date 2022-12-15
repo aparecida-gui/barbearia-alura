@@ -1,45 +1,4 @@
-body {
-  font-family: "Roboto", sans-serif;
-  background: #e9e9e9;
-}
-
-header {
-  background: #f39018;
-}
-
-.box {
-  position: relative;
-  margin: 0 auto;
-}
-
-nav {
-  position: absolute;
-  top: 6rem;
-  right: 0rem;
-}
-
-nav a:hover {
-  color: #9289f7;
-}
-
-header ul li {
-  display: inline;
-  font-weight: bold;
-  margin-right: 0.7rem;
-}
-
-ul li a {
-  text-decoration: none;
-  color: #ffffff;
-}
-
-ul {
-  padding: 2rem 0rem;
-}
-
 .form-contact {
-  width: 940px;
-  margin: 0 auto;
   padding: 2rem 0rem;
   margin: 2rem 0rem;
 }
@@ -57,31 +16,44 @@ ul {
 .form-input {
   padding: 0.5rem;
   border-radius: 0.3rem;
-  width: 450px;
-  height: 23px;
+  width: 28.125rem;
+  height: 1.4375rem;
 }
 
 .input-submit {
   border-radius: 0.3rem;
-  width: 200px;
+  width: 12.5rem;
   font-size: 1.3rem;
-  background: #45bb41ea;
+  background: #3ca70af1;
+  transition: 2s all;
+  cursor: pointer;
+}
+
+.input-submit:hover {
+  background: #f39018;
+  transform: scale(1.1);
 }
 
 .input-textarea {
   border-radius: 0.3rem;
-  width: 450px;
-  height: 150px;
+  width: 28.125rem;
+  height: 9.375rem;
 }
 
-footer {
-  text-align: center;
+table {
+  margin: 0.5rem;
   font-weight: bold;
-  background-color: #f39018;
-  padding: 4rem 0rem;
-  padding-bottom: 8%;
 }
 
-p {
-  padding: 0.8rem 0rem;
+thead {
+  background: #f39018;
+}
+
+thead,
+tr,
+th,
+td,
+tbody {
+  border: 0.1rem solid #000;
+  padding: 0.5rem;
 }
